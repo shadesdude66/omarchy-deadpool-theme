@@ -9,7 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="backgrounds/maximum-effort.jpg" width="600" alt="Deadpool theme wallpaper preview" />
+  <img src="preview.png" width="600" alt="Deadpool theme desktop preview" />
+  <br/>
+  <img src="unlock.png" width="600" alt="Deadpool theme lock screen preview" />
 </p>
 
 ## Installation
@@ -38,6 +40,9 @@ omarchy theme set Deadpool
 - `colors.toml` — accent red/black palette used across the terminal, Hyprland, and Waybar
 - `icons.theme` — Yaru-red icon set
 - `backgrounds/maximum-effort.jpg` — theme wallpaper
+- `preview.png`, `preview-unlock.png`, `unlock.png` — screenshots used by the [Omarchy theme gallery](https://omarchy.org/themes)
+
+Everything else (terminal configs, VS Code, btop, keyboard RGB, etc.) is generated automatically from `colors.toml` when the theme is applied — this repo intentionally doesn't ship `neovim.lua` or `vscode.json`, since Omarchy strips those from any git-installed theme for security (they'd be silently ignored anyway).
 
 ## Uninstall
 
